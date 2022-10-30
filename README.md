@@ -4,6 +4,8 @@ I'm annoyed by the white gradient at the bottom that pops up whenever I focus on
 
 So I decided to try making my first chrome extension plugin.
 
+This extension plugin makes more sense especially when using dark mode.
+
 It was easier than I thought and I was able to finish it in an hour.
 
 - 적용전
