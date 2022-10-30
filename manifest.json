@@ -3,20 +3,24 @@
     "version": "1.0",
     "description": "Youtube Gradient Bottom Remover On Focus",
     "content_scripts":
-    {
-        "js":
-        [
-            "scripts/content.js"
-        ]
-    },
-    "permissions":
     [
-        "storage"
+        {
+            "matches":
+            [
+                "https://www.youtube.com/*"
+            ],
+            "css":
+            [
+                "youtube-gradient-bottom-remover.css"
+            ]
+        }
     ],
-    "browser_action":
+    "icons":
     {
-        "default_icon": "favicon.png",
-        "default_popup": "./src/extension/popup.html"
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
     },
-    "manifest_version": 1
+    "manifest_version": 3
 }
